@@ -1,4 +1,4 @@
-USE [simpleblog]
+USE [rounok]
 GO
 /****** Object:  ForeignKey [FK_comments_entries]    Script Date: 09/13/2010 14:45:22 ******/
 IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_comments_entries]') AND parent_object_id = OBJECT_ID(N'[dbo].[comments]'))
